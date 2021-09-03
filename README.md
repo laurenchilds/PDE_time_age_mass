@@ -16,11 +16,11 @@ Matlab Functions:
 
 
 Analytical3D.m
-Produces simulated data related to the parameters and functional forms chosen. An example is encoded with g(t,a) = 1, g(m) = 1, \delta = 0, and standard initial conditions. Output is automatically saved as ?Output.mat.?
+Produces simulated data related to the parameters and functional forms chosen. An example is encoded with g(t,a) = 1, g(m) = 1, \delta = 0, and standard initial conditions. Output is automatically saved as 'Output.mat.'
 
 DefineFunctions.m
 For inputted functional forms of g(t,a) and g(m), the necessary functions are displayed. These need to be changed in Analytical3D.m in accordance with the chosen functional forms. An example is encoded with g(t,a) = a and g(m) = 2*m.
 
 PlotData.m
-Plots simulated data files found in ?Data/? to produce all subfigures found in the manuscript. Will deposit .png and .fig figures into ?Figures/? folder. Commented details on the numerical referencing of versions and associated parameterization are found in the comments.
+Plots simulated data files found in ?Data/? to produce all subfigures found in the manuscript. Will deposit .png and .fig figures into 'Figures/' folder. Commented details on the numerical referencing of versions and associated parameterization are found in the comments.
 
